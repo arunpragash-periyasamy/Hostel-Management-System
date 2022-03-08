@@ -1,0 +1,63 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+/*body styling*/
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+ margin:0;
+ padding: 0;
+ font-family: 'Times New Roman', Times, serif;
+
+ /*background-size: cover ; */  
+ background-color: black; 
+}
+
+.container{
+    height: 100%;
+    background: url(adminbg.jpg) ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.row i{
+    color: white;
+}
+
+
+.well{
+    color: aqua;
+}
+
+.box{
+    
+    width: 35%;
+    height: 40%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(3, 3, 3, 0.452);
+    text-align: center;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 60%;
+    background: none;
+    border: 2px solid #0a7ecc;
+    border-radius: 24px;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.8s;
+    margin: 12px 0;
+}
